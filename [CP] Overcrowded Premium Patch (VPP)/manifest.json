@@ -1,0 +1,45 @@
+{
+	"Name": "Overcrowded Premium Coop and Barn Patch",
+	"Author": "bobkalonger",
+	"Version": "1.0.0",
+	"Description": "Patch for SVE's Premium Coop and Barn with VPP's Overcrowding Talent, increasing building capacity to 20 animals each!",
+	"UniqueID": "bobkalonger.PremiumPatch_VPP",
+	"MinimumApiVersion": "4.4.0",
+	"UpdateKeys": [ "Nexus:???" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "2.9.0"
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "Pathoschild.ContentPatcher",
+			"MinimumVersion": "2.9.0",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "bobkalonger.UltCB_code",
+			"MinimumVersion": "1.8.7",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "FlashShifter.StardewValleyExpandedCP",
+			"MinimumVersion": "1.15.10",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "KediDili.VanillaPlusProfessions",
+			"MinimumVersion": "1.1.1",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "Esca.EMP",
+			"MinimumVersion": "1.7.2",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "Spiderbuttons.CMCT",
+			"MinimumVersion": "1.1.2",
+			"IsRequired": true
+		}
+	]
+}

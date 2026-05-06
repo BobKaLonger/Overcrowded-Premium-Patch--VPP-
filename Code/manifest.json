@@ -1,0 +1,17 @@
+{
+    "Name": "Overcrowded Premium Coop and Barn Patch",
+    "Author": "bobkalonger",
+    "Version": "1.0.0",
+    "Description": "Code for Overcrowded Premium Coop and Barn Patch",
+    "UniqueID": "bobkalonger.PremiumPatch_code",
+    "EntryDll": "PremiumPatch_VPP.dll",
+    "MinimumApiVersion": "4.4.0",
+    "UpdateKeys": [ "Nexus:???" ],
+    "Dependencies": [
+        {
+            "UniqueID": "Pathoschild.ContentPatcher",
+            "IsRequired": true,
+            "MinimumVersion": "2.9.0"
+        }
+    ]
+}
