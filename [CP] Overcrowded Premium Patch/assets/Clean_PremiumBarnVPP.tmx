@@ -57,9 +57,9 @@
    eJxjYBgFo2AUjIJRMApGwSgYWMA1wGYb0tB+bGYDADHsAHc=
   </data>
  </layer>
- <layer id="7" name="Paths" width="32" height="19" visible="0">
+ <layer id="7" name="Paths" width="32" height="19">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2BwgFgophd/FJAHsIXhaLhSDogNV2qLjQIIGA3/UUBvAABZ1Qot
+   eJxjYBgFo2BwgFgophd/FAxNgC0OR+N16ANi45XaYqNgFAwUAADigQf/
   </data>
  </layer>
  <objectgroup id="2" name="Back" visible="0">

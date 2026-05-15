@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="right-down" width="32" height="19" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="58">
+<map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="right-down" width="32" height="19" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="58">
  <properties>
   <property name="AmbientLight" value="110 110 110"/>
   <property name="AutoFeed" value="T"/>
@@ -44,22 +44,27 @@
  </layer>
  <layer id="3" name="Buildings" width="32" height="19">
   <data encoding="base64" compression="zlib">
-   eJztlM0KwjAQhKeKStGrB0FRT4p68ecl1JfKozuQXQglTSVG10MHProtdL5Du6kADIwYkhFZCgvhV/cT8W8arMiFXAtxI2vpngce9d/Jgzzhs0X5HOSqHjqd+q3S+4Ha0D8lFdI7Ovugf9zR3dz/NnLDd12qV7//juzhdzI256arV/1HcoI/B2JzboIuF5v/4f/v/bZ+6/PnHFC3PC/Bu934gjvV/QIuzh+x
+   eJxjZGBgYBogzAzErEAsA8WSUEwvPjvUfgU0LAvERkBsTCVsAsTyULNFkeyB2e8JxF5A7M0AAYoM1AdaUBpmD9DOBpj9AwVG7Wdg4BxA+7mBmHEA7Yfl/4ECsPhXB2INBkiexMYmFxAyF2a/NhDrMEDKAWxscgGSWQ3Y2IMh/Y/aP7D2D3T5Y4iEOXGIUwMTazYDDezGZzYAl4odQw==
+  </data>
+ </layer>
+ <layer id="10" name="Buildings1" width="32" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjYBh44DgwdjbA2K5A7AbE7nSwF2aPK5L9o2AUjIKBB6442FQwtwEbexSMglEwsgEA+W4FOw==
   </data>
  </layer>
  <layer id="5" name="Front" width="32" height="19">
   <data encoding="base64" compression="zlib">
-   eJxjYBh44DgwdjbA2K5A7AbE7nSwF2aPK5L9o2BkAy48mIUCczkImD3YgCMONhXMbcDGRgeuONiUAlfUsgan/aNgFAwEQC9rCJUb5GBsZo8CBgYAGP8I3w==
+   eJxjYBgFo2AUjIJRMApGwUgEXFDMAuVzIIlRC2MzexQwMAAAVX8BCQ==
   </data>
  </layer>
  <layer id="9" name="AlwaysFront" width="32" height="19">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwSgYWMA1wGYb0tB+bGYDADHsAHc=
+   eJxjYBgFo2AUDCTgwoNZKDCXg4DZMMCEB/NQYD8bAbNhQAaKHXGwyQVAvQ1QsxqQzG2g1NxRMApGAW0AF2ElNDXbkIb2YzMbAIemBRE=
   </data>
  </layer>
  <layer id="7" name="Paths" width="32" height="19" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2BwgFgophd/FJAHsIXhaLhSDogNV2qLjQIIGA3/UUBvAABZ1Qot
+   eJxjYBgFo2BwgFgophd/FAxNgC0OR+N16ANi45XaYqNgFAwUAADigQf/
   </data>
  </layer>
  <objectgroup id="2" name="Back" visible="0">
@@ -108,27 +113,7 @@
     <property name="NPCBarrier" value="T"/>
    </properties>
   </object>
-  <object id="13" name="TileData" x="80" y="240" width="16" height="16">
-   <properties>
-    <property name="NPCBarrier" value="T"/>
-   </properties>
-  </object>
   <object id="14" name="TileData" x="80" y="256" width="16" height="16">
-   <properties>
-    <property name="NPCBarrier" value="T"/>
-   </properties>
-  </object>
-  <object id="15" name="TileData" x="64" y="240" width="16" height="16">
-   <properties>
-    <property name="NPCBarrier" value="T"/>
-   </properties>
-  </object>
-  <object id="16" name="TileData" x="48" y="240" width="16" height="16">
-   <properties>
-    <property name="NPCBarrier" value="T"/>
-   </properties>
-  </object>
-  <object id="17" name="TileData" x="448" y="240" width="16" height="16">
    <properties>
     <property name="NPCBarrier" value="T"/>
    </properties>
@@ -138,17 +123,7 @@
     <property name="NPCBarrier" value="T"/>
    </properties>
   </object>
-  <object id="19" name="TileData" x="416" y="240" width="16" height="16">
-   <properties>
-    <property name="NPCBarrier" value="T"/>
-   </properties>
-  </object>
   <object id="20" name="TileData" x="416" y="256" width="16" height="16">
-   <properties>
-    <property name="NPCBarrier" value="T"/>
-   </properties>
-  </object>
-  <object id="21" name="TileData" x="432" y="240" width="16" height="16">
    <properties>
     <property name="NPCBarrier" value="T"/>
    </properties>
