@@ -1,0 +1,16 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "When": {
+                "Barn Floor": "Clean"
+            },
+            "Entries": {
+                "FlashShifter.StardewValleyExpandedCP_PremiumBarn": {
+                    "Name": "{{i18n:building.premium-barn.name}}"
+                }
+            }
+        }
+    ]
+}

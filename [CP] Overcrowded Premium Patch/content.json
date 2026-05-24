@@ -1,25 +1,19 @@
 {
 	"Format": "2.9.0",
 	"ConfigSchema": {
-        "Barn Floor": {
-            "AllowValues": "Clean, Cozy",
-            "Description": "Choose the interior for your barn.",
-            "Default": "Clean",
-            "Section": "Indoor Appearance"
-        },
-        "Coop Floor": {
-            "AllowValues": "Clean, Cozy",
-            "Description": "Choose the interior for your coop.",
-            "Default": "Clean",
-            "Section": "Indoor Appearance"
-        },
-        "Machines": {
-			"AllowValues": "Exposed, Hidden, None",
-			"Description": "For the Heater, Auto-Grabber, and Auto-Petter, choose to have them exposed, hidden, or not spawn at all. Hidden places them all behind a wall but will still function.",
-			"Default": "Exposed",
+		"Barn Floor": {
+			"AllowValues": "Clean, Cozy",
+			"Description": "Choose the interior for your barn.",
+			"Default": "Clean",
 			"Section": "Indoor Appearance"
-        }
-    },
+		},
+		"Coop Floor": {
+			"AllowValues": "Clean, Cozy",
+			"Description": "Choose the interior for your coop.",
+			"Default": "Clean",
+			"Section": "Indoor Appearance"
+		}
+	},
 	"Changes": [
 		{
 			"Action": "Load",
@@ -53,31 +47,11 @@
 			"Target": "Data/PaintData",
 			"Entries": {
 				"{{ModId}}_PrimeCoop": "Building/-12 0/Roof/-10 5/Trim/-10 5"
-		    }
-	    },
-        {
-            "Action": "Include",
-            "FromFile": "data/PrimeExposed.json",
-            "When":
-            {
-                "Machines": "Exposed"
-            }
-        },
-        {
-            "Action": "Include",
-            "FromFile": "data/PrimeHidden.json",
-            "When":
-            {
-                "Machines": "Hidden"
 			}
-        },
-        {
-            "Action": "Include",
-            "FromFile": "data/PrimeNone.json",
-            "When":
-            {
-                "Machines": "None"
-            }
-        }
-    ]
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/PrimeVPP.json"
+		}
+	]
 }
