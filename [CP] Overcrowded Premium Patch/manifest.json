@@ -3,9 +3,11 @@
 	"Author": "bobkalonger",
 	"Version": "1.0.0",
 	"Description": "Patch for SVE's Premium Coop and Barn with VPP's Overcrowding Talent, increasing building capacity to 20 animals each!",
-	"UniqueID": "bobkalonger.PremiumPatch_VPP",
+	"UniqueID": "bobkalonger.PremiumPatchVPP",
 	"MinimumApiVersion": "4.4.0",
-	"UpdateKeys": [ "Nexus:???" ],
+	"UpdateKeys": [
+		"Nexus:???"
+	],
 	"ContentPackFor": {
 		"UniqueID": "Pathoschild.ContentPatcher",
 		"MinimumVersion": "2.9.0"
