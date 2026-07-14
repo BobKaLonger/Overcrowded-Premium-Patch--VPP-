@@ -17,41 +17,50 @@
 	"Changes": [
 		{
 			"Action": "Load",
-			"Target": "Maps/prime_Clean_PrimeBarn",
-			"FromFile": "assets/clean_PrimeBarn.tmx"
+			"Target": "Maps/Clean_PremiumBarnVPP",
+			"FromFile": "assets/clean_PremiumBarnVPP.tmx"
 		},
 		{
 			"Action": "Load",
-			"Target": "Maps/prime_Clean_PrimeCoop",
-			"FromFile": "assets/clean_PrimeCoop.tmx"
+			"Target": "Maps/Clean_PremiumCoopVPP",
+			"FromFile": "assets/clean_PremiumCoopVPP.tmx"
 		},
 		{
 			"Action": "Load",
-			"Target": "Maps/prime_Cozy_PrimeBarn",
-			"FromFile": "assets/cozy_PrimeBarn.tmx"
+			"Target": "Maps/Cozy_PremiumBarnVPP",
+			"FromFile": "assets/cozy_PremiumBarnVPP.tmx"
 		},
 		{
 			"Action": "Load",
-			"Target": "Maps/prime_Clean_PrimeCoop",
-			"FromFile": "assets/cozy_PrimeCoop.tmx"
+			"Target": "Maps/Cozy_PremiumCoopVPP",
+			"FromFile": "assets/cozy_PremiumCoopVPP.tmx"
 		},
 		{
-			"Action": "EditData",
-			"Target": "Data/PaintData",
-			"Entries": {
-				"{{ModId}}_PrimeBarn": "Building/-10 0/Roof/-10 5/Trim/-5 0"
-			}
+			"Action": "Load",
+			"Target": "Maps/Clean_DeluxePlusBarnVPP",
+			"FromFile": "assets/clean_DeluxePlusBarnVPP.tmx"
 		},
 		{
-			"Action": "EditData",
-			"Target": "Data/PaintData",
-			"Entries": {
-				"{{ModId}}_PrimeCoop": "Building/-12 0/Roof/-10 5/Trim/-10 5"
-			}
+			"Action": "Load",
+			"Target": "Maps/Clean_DeluxePlusCoopVPP",
+			"FromFile": "assets/clean_DeluxePlusCoopVPP.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Cozy_DeluxePlusBarnVPP",
+			"FromFile": "assets/cozy_DeluxePlusBarnVPP.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Cozy_DeluxePlusCoopVPP",
+			"FromFile": "assets/cozy_DeluxePlusCoopVPP.tmx"
 		},
 		{
 			"Action": "Include",
-			"FromFile": "data/PrimeVPP.json"
+			"FromFile": "data/PremiumVPP.json",
+			"When": {
+				"HasMod": "KediDili.VanillaPlusProfessions"
+			}
 		}
 	]
 }

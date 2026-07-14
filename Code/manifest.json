@@ -3,10 +3,12 @@
     "Author": "bobkalonger",
     "Version": "1.0.0",
     "Description": "Code for Overcrowded Premium Coop and Barn Patch",
-    "UniqueID": "bobkalonger.PremiumPatch_code",
+    "UniqueID": "bobkalonger.PremiumPatchVPP_code",
     "EntryDll": "PremiumPatch_VPP.dll",
     "MinimumApiVersion": "4.4.0",
-    "UpdateKeys": [ "Nexus:???" ],
+    "UpdateKeys": [
+        "Nexus:???"
+    ],
     "Dependencies": [
         {
             "UniqueID": "Pathoschild.ContentPatcher",
