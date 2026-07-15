@@ -23,7 +23,7 @@ namespace OvercrowdedPremiumPatch
         private const string PremiumBarn = $"{PremiumVPP}PremiumBarn";
         private const string PremiumCoop = $"{PremiumVPP}PremiumCoop";
         private const string VppItemKey = "Premium/vppItems";
-        private const string OvercrowdingKey = "bobkalonger.PremiumPatch_code/OvercrowdingActive";
+        private const string OvercrowdingKey = "bobkalonger.PremiumPatchVPP_code/OvercrowdingActive";
         private bool _overcrowdingActive = false;
         public override void Entry(IModHelper helper)
         {

@@ -57,9 +57,16 @@
 		},
 		{
 			"Action": "Include",
-			"FromFile": "data/PremiumVPP.json",
+			"FromFile": "data/SVE_VPP.json",
 			"When": {
-				"HasMod": "KediDili.VanillaPlusProfessions"
+				"HasMod": "FlashShifter.StardewValleyExpandedCP"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/standalone_VPP.json",
+			"When": {
+				"HasMod": "bobkalonger.PremiumCoopAndBarnCP"
 			}
 		}
 	]
