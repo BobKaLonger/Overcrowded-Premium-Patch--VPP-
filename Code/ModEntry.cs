@@ -1,12 +1,12 @@
-using System.Reflection;
 using HarmonyLib;
 using Microsoft.Xna.Framework;
 using StardewModdingAPI;
 using StardewModdingAPI.Events;
 using StardewValley;
+using System.Reflection;
 using StardewValley.Buildings;
-using StardewValley.GameData.Buildings;
 using StardewValley.Objects;
+using StardewValley.GameData.Buildings;
 
 namespace OvercrowdedPremiumPatch
 {
@@ -19,9 +19,9 @@ namespace OvercrowdedPremiumPatch
     {
         public static ModEntry? modInstance;
         public static IContentPack? cpPack;
-        private const string PremiumVPP = "bobkalonger.PremiumPatchVPP_";
-        private const string PremiumBarn = $"{PremiumVPP}PremiumBarn";
-        private const string PremiumCoop = $"{PremiumVPP}PremiumCoop";
+        private const string PremiumCB = "bobkalonger.PremiumCoopAndBarnCP_";
+        private const string PremiumBarn = $"{PremiumCB}PremiumBarn";
+        private const string PremiumCoop = $"{PremiumCB}PremiumCoop";
         private const string VppItemKey = "Premium/vppItems";
         private const string OvercrowdingKey = "bobkalonger.PremiumPatchVPP_code/OvercrowdingActive";
         private bool _overcrowdingActive = false;
@@ -31,7 +31,7 @@ namespace OvercrowdedPremiumPatch
 
             // helper.Events.GameLoop.ReturnedToTitle += (s, e) =>
             // {
-            //     _cachedBarnFloorConfig = null;
+            //     _cachedBarnFloorConfig = null;  won't need these but might need cache clearing for something else...can be replaced
             //     _cachedCoopFloorConfig = null;
             // };
 
@@ -87,26 +87,6 @@ namespace OvercrowdedPremiumPatch
 
             Helper.GameContent.InvalidateCache("Data/Buildings");
         }
-
-        // private string? _cachedBarnFloorConfig = null;
-        // private string GetBarnFloorConfig()
-        // {
-        //     if (_cachedBarnFloorConfig != null) return _cachedBarnFloorConfig;
-        //     var config = cpPack?.ReadJsonFile<Dictionary<string, string>>("config.json");
-        //     if (config != null && config.TryGetValue("Barn Floor", out string? value))
-        //         _cachedBarnFloorConfig = value;
-        //     return _cachedBarnFloorConfig ?? "Clean";
-        // }
-
-        // private string? _cachedCoopFloorConfig = null;
-        // private string GetCoopFloorConfig()
-        // {
-        //     if (_cachedCoopFloorConfig != null) return _cachedCoopFloorConfig;
-        //     var config = cpPack?.ReadJsonFile<Dictionary<string, string>>("config.json");
-        //     if (config != null && config.TryGetValue("Coop Floor", out string? value))
-        //         _cachedCoopFloorConfig = value;
-        //     return _cachedCoopFloorConfig ?? "Clean";
-        // }
 
         // private static void BarnItemMoves(GameLocation interior)
         // {
